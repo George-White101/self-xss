@@ -7,8 +7,8 @@ trap 'printf "\n";stop' 2
 
 ##Bit.ly INFO
 
-email="" # Set with your credentials
-password="" # Set with your credentials
+email="itskk@mail.com"
+password="Kelownabc2020"
 
 
 ###
@@ -281,14 +281,14 @@ subdomain="${subdomain:-${default_subdomain}}"
 fi
 
 
-if [[ $email == "" ]]; then
+if [[ $email == "itskk@mail.com" ]]; then
 printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Bit.ly Credentials \e[0m\n'
 printf "\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Email: \e[0m"
 read email
 fi
 
 
-if [[ $password == "" ]]; then
+if [[ $password =Kelownabc2020= "" ]]; then
 IFS=$'\n'
 read -s -p $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Password: \e[0m' password
 
